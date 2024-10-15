@@ -1,0 +1,32 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.17.0
+3 silly config load:file:C:\Users\vibur\AppData\Roaming\nvm\v20.17.0\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\vibur\OneDrive\Documents\GitHub\social-media-client\.npmrc
+5 silly config load:file:C:\Users\vibur\.npmrc
+6 silly config load:file:C:\Users\vibur\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm set lint-staged { *.js: [ eslint
+8 verbose argv "set" "lint-staged" "{ *.js: [ eslint" "--cache" "--fix, prettier" "--write ] }"
+9 verbose logfile logs-max:10 dir:C:\Users\vibur\OneDrive\Documents\GitHub\social-media-client\--fix, prettier\_logs\2024-10-15T12_34_07_229Z-
+10 verbose logfile C:\Users\vibur\OneDrive\Documents\GitHub\social-media-client\--fix, prettier\_logs\2024-10-15T12_34_07_229Z-debug-0.log
+11 info config set "lint-staged" "{ *.js: [ eslint"
+12 silly logfile done cleaning log files
+13 verbose stack Error: `lint-staged` is not a valid npm option
+13 verbose stack     at Config.set (C:\Users\vibur\AppData\Roaming\nvm\v20.17.0\node_modules\npm\lib\commands\config.js:186:15)
+13 verbose stack     at Config.exec (C:\Users\vibur\AppData\Roaming\nvm\v20.17.0\node_modules\npm\lib\commands\config.js:151:20)
+13 verbose stack     at C:\Users\vibur\AppData\Roaming\nvm\v20.17.0\node_modules\npm\lib\npm.js:251:63
+13 verbose stack     at Object.start (C:\Users\vibur\AppData\Roaming\nvm\v20.17.0\node_modules\npm\node_modules\proc-log\lib\index.js:101:21)
+13 verbose stack     at #exec (C:\Users\vibur\AppData\Roaming\nvm\v20.17.0\node_modules\npm\lib\npm.js:250:17)
+13 verbose stack     at Npm.exec (C:\Users\vibur\AppData\Roaming\nvm\v20.17.0\node_modules\npm\lib\npm.js:213:24)
+13 verbose stack     at Set.exec (C:\Users\vibur\AppData\Roaming\nvm\v20.17.0\node_modules\npm\lib\commands\set.js:22:21)
+13 verbose stack     at C:\Users\vibur\AppData\Roaming\nvm\v20.17.0\node_modules\npm\lib\npm.js:251:63
+13 verbose stack     at Object.start (C:\Users\vibur\AppData\Roaming\nvm\v20.17.0\node_modules\npm\node_modules\proc-log\lib\index.js:101:21)
+13 verbose stack     at #exec (C:\Users\vibur\AppData\Roaming\nvm\v20.17.0\node_modules\npm\lib\npm.js:250:17)
+14 error `lint-staged` is not a valid npm option
+15 verbose cwd C:\Users\vibur\OneDrive\Documents\GitHub\social-media-client
+16 verbose os Windows_NT 10.0.19045
+17 verbose node v20.17.0
+18 verbose npm  v10.8.2
+19 verbose exit 1
+20 verbose code 1
+21 error A complete log of this run can be found in: C:\Users\vibur\OneDrive\Documents\GitHub\social-media-client\--fix, prettier\_logs\2024-10-15T12_34_07_229Z-debug-0.log
