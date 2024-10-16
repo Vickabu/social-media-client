@@ -1,6 +1,6 @@
 export default {
   semi: true,
-  singleQuote: true,
+  singleQuote: false,
   tabWidth: 2,
   printWidth: 80,
 };
