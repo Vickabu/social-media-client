@@ -6,7 +6,13 @@ import pluginCypress from "eslint-plugin-cypress";
 export default [
   {
     languageOptions: {
-      globals: { ...globals.browser, ...globals.jest, ...globals.node },
+      globals: {
+        ...globals.browser,
+        ...globals.jest,
+        ...globals.node,
+        cy: "readonly",
+        Cypress: "readonly",
+      },
     },
   },
   pluginJs.configs.recommended,
@@ -16,13 +22,15 @@ export default [
     },
     rules: {
       ...pluginJest.configs.recommended.rules,
+      "jest/valid-expect": "off",
     },
   },
   {
     files: ["**/*.cy.js", "cypress.config.js"],
     languageOptions: {
       globals: {
-        "cypress/globals": true,
+        cy: "readonly",
+        Cypress: "readonly",
       },
     },
     plugins: {
@@ -31,6 +39,7 @@ export default [
     rules: {
       "cypress/no-unnecessary-waiting": "off",
       "no-unused-vars": "off",
+      "jest/valid-expect": "off",
     },
   },
 ];
