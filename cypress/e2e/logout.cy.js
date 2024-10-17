@@ -1,4 +1,4 @@
-describe("Logout functionality", () => {
+describe("Logout function", () => {
   beforeEach(() => {
     localStorage.setItem("token", "sample-token");
     localStorage.setItem("profile", JSON.stringify({ name: "Test User" }));
