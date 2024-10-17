@@ -22,7 +22,7 @@ describe("login function", () => {
     });
 
     const email = "test@example.com";
-    const password = "valid_password";
+    const password = "password1234";
 
     await login(email, password);
 
@@ -36,7 +36,7 @@ describe("login function", () => {
     });
 
     const email = "invalid@example.com";
-    const password = "invalid_password";
+    const password = "password1234";
 
     await expect(login(email, password)).rejects.toThrow("Unauthorized");
   });
