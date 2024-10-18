@@ -40,6 +40,8 @@ export default [
       "cypress/no-unnecessary-waiting": "off",
       "no-unused-vars": "off",
       "jest/valid-expect": "off",
+      "jest/no-test-without-assert": "off",
+      "jest/expect-expect": "off",
     },
   },
 ];
