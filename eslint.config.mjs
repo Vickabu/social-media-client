@@ -29,8 +29,7 @@ export default [
     files: ["**/*.cy.js", "cypress.config.js"],
     languageOptions: {
       globals: {
-        cy: "readonly",
-        Cypress: "readonly",
+        ...globals.cypress,
       },
     },
     plugins: {
