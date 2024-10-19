@@ -6,7 +6,7 @@
   "scripts": {
     "build": "sass src/scss:dist/css",
     "test": "npm run test-unit",
-    "test-unit": "jest",
+    "test-unit": "jest --verbose",
     "test-e2e": "cypress open",
     "start": "sass --watch src/scss:dist/css & live-server",
     "lint": "eslint .",
